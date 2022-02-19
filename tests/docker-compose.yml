@@ -1,0 +1,11 @@
+
+version: "3.9"
+
+services:
+
+  server:
+    image: node:17
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: sleep infinity

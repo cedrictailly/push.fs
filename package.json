@@ -1,0 +1,33 @@
+{
+  "author": "Cédric Tailly",
+  "name": "push.fs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "push": "docker-compose exec server node push"
+  },
+  "description": "A module to push messages using file system in order to send information from inside a Docker container to the host machine.",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedrictailly/push.fs.git"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "fs",
+    "docker"
+  ],
+  "bugs": {
+    "url": "https://github.com/cedrictailly/push.fs/issues"
+  },
+  "homepage": "https://github.com/cedrictailly/push.fs#readme"
+}
